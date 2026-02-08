@@ -6,6 +6,9 @@ body {
   font-style: normal;
 }
 
+
+
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
   nav {
@@ -17,6 +20,35 @@ body {
   }
   .nav-btn {
     display: none;
+  }
+
+  .banner{
+    height: 500px;
+  }
+  .hero-circle{
+    width: 200px;
+    top: 225px;
+  }
+  .microphone{
+    width: 60px;
+    top: 225px;
+  }
+  .status{
+    top: 295px;
+    padding: 3px 10px;
+    font-size: small;
+    transform: translate(-40px, 0);
+  }
+
+  .banner-content{
+    top: 350px;
+  }
+  .tech-wave{
+    font-size: 40px;
+  }
+
+  .hero-bg{
+    height: 360px;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 991px) {
