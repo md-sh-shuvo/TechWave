@@ -13,11 +13,12 @@
     <title>TechWave</title>
   </head>
   <body>
+    <!-- Navbar -->
     <nav
-      class="flex justify-between items-center px-[200px] py-4 bg-primary text-white"
+      class="flex justify-between items-center px-[200px] py-4 bg-primary text-white border-b border-gray-700"
     >
       <a href=""
-        ><h1 class="text-3xl font-bold">
+        ><h1 class="text-4xl font-bold">
           Tech<span
             class="bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] bg-clip-text text-transparent"
             >Wave</span
@@ -27,21 +28,21 @@
       <ul class="nav-links flex gap-8 font-semibold">
         <a href=""
           ><li
-            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
           >
             About
           </li></a
         >
         <a href=""
           ><li
-            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
           >
             Episodes
           </li></a
         >
         <a href=""
           ><li
-            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
           >
             Host
           </li></a
@@ -50,7 +51,7 @@
       <!-- gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] -->
       <a href=""
         ><button
-          class="nav-btn cursor-pointer bg-[linear-gradient(25deg,#F7E93F,#FB09B4,#9100F8)] flex items-center gap-1 px-4 py-3 rounded-full font-semibold"
+          class="nav-btn cursor-pointer bg-[linear-gradient(25deg,#F7E93F,#FB09B4,#9100F8)] flex items-center gap-1 px-4 py-3 rounded-full font-semibold transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
         >
           Subscribe<span
             ><svg
@@ -81,5 +82,51 @@
         </svg>
       </a>
     </nav>
+
+    <!-- Banner -->
+    <header>
+      <div
+        class="banner bg-[url(./assets/hero-bg.png)] w-full h-[760px] bg-cover bg-center border border-transparent text-white"
+      >
+        <!-- <img class="w-full" src="assets/hero-bg.png" alt=""> -->
+        <div class="relative w-fit mx-auto mt-[90px]">
+          <img class="" src="assets/hero-circle.png" alt="" />
+          <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            <img src="assets/microphone.png" alt="" />
+          </div>
+          <div
+            class="status bg-[#00FF88] rounded-full w-fit font-semibold shadow-[0_0_10px_2px_rgba(0,255,136,0.5)] py-[6px] px-4 absolute top-3 right-6"
+          >
+            NEW
+          </div>
+        </div>
+        <div class="banner-content text-center">
+          <h1 class="font-extrabold text-6xl mt-10 mb-2">TechWave</h1>
+          <p>
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div class="flex gap-4 justify-center items-center mt-6">
+            <a href=""
+              ><button
+                class="flex justify-between items-center cursor-pointer bg-[linear-gradient(25deg,#F7E93F,#FB09B4,#9100F8)] gap-2 px-5 py-3 rounded-full font-semibold  transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
+              >
+                <span><img src="assets/spotify.png" alt="" /></span>Listen on
+                Spotify
+              </button></a
+            >
+            <a href=""
+              ><button
+                class="flex justify-between items-center gap-2 px-5 py-[10px] rounded-full font-semibold outline-2 outline-[#00FF88] text-[#00FF88]  transition duration-100 ease-in-out hover:-translate-y-[2px] hover:scale-105"
+              >
+                <span><img src="assets/message.png" alt="" /></span>Subscribe
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
