@@ -9,6 +9,7 @@
         --color-primary: #1a0b2e;
       }
     </style>
+    <link rel="stylesheet" href="style.css" />
     <title>TechWave</title>
   </head>
   <body>
@@ -23,15 +24,33 @@
           >
         </h1></a
       >
-      <ul class="flex gap-8 font-semibold ">
-        <a href=""><li class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent">About</li></a>
-        <a href=""><li class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent">Episodes</li></a>
-        <a href=""><li class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent">Host</li></a>
+      <ul class="nav-links flex gap-8 font-semibold">
+        <a href=""
+          ><li
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+          >
+            About
+          </li></a
+        >
+        <a href=""
+          ><li
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+          >
+            Episodes
+          </li></a
+        >
+        <a href=""
+          ><li
+            class="text-white hover:bg-[linear-gradient(15deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] hover:bg-clip-text hover:text-transparent"
+          >
+            Host
+          </li></a
+        >
       </ul>
       <!-- gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] -->
       <a href=""
         ><button
-          class="cursor-pointer bg-[linear-gradient(25deg,#F7E93F,#FB09B4,#9100F8)] flex items-center gap-1 px-4 py-3 rounded-full font-semibold"
+          class="nav-btn cursor-pointer bg-[linear-gradient(25deg,#F7E93F,#FB09B4,#9100F8)] flex items-center gap-1 px-4 py-3 rounded-full font-semibold"
         >
           Subscribe<span
             ><svg
@@ -46,8 +65,21 @@
                 clip-rule="evenodd"
               />
             </svg>
-          </span></button
-      ></a>
+          </span>
+        </button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="size-6 menubar"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </a>
     </nav>
   </body>
 </html>
