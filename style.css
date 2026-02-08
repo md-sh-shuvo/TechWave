@@ -50,6 +50,29 @@ body {
   .hero-bg{
     height: 360px;
   }
+  
+  .about-podcast-section{
+    padding: 0 30px;
+  }
+  .about-podcast-section-description{
+    width: 100%;
+  }
+
+  .about-podcast-heading{
+    font-size: 32px;
+  }
+  .about-section-hr{
+    margin: 30px 0;
+  }
+
+
+  .statics-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .statistic-container h1{
+    font-size: 40px;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 991px) {
   nav {
